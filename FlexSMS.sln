@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexSMS", "FlexSMS\FlexSMS.csproj", "{DCD783C0-0C78-4897-B415-38766E034AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSendSMS", "TestSendSMS\TestSendSMS.csproj", "{8793D835-F66E-4167-AC1C-D107A4565ABD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCD783C0-0C78-4897-B415-38766E034AF3} = {DCD783C0-0C78-4897-B415-38766E034AF3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsManager", "SettingsManager\SettingsManager.csproj", "{961EAADC-459A-432E-8789-BF88FF602C4E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCD783C0-0C78-4897-B415-38766E034AF3} = {DCD783C0-0C78-4897-B415-38766E034AF3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD783C0-0C78-4897-B415-38766E034AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD783C0-0C78-4897-B415-38766E034AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD783C0-0C78-4897-B415-38766E034AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD783C0-0C78-4897-B415-38766E034AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8793D835-F66E-4167-AC1C-D107A4565ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8793D835-F66E-4167-AC1C-D107A4565ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8793D835-F66E-4167-AC1C-D107A4565ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8793D835-F66E-4167-AC1C-D107A4565ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961EAADC-459A-432E-8789-BF88FF602C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961EAADC-459A-432E-8789-BF88FF602C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961EAADC-459A-432E-8789-BF88FF602C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961EAADC-459A-432E-8789-BF88FF602C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
